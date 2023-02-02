@@ -18,7 +18,13 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  margin: auto;
+  width: 40% ;
+  justify-content: space-between;
   text-align: center;
+ /* float: center;*/
+  align-items: baseline;
 }
 
 /* Containers */
@@ -53,6 +59,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+  float: right;
 }
 
 /* Images */
@@ -76,3 +83,41 @@ footer {
 hr {
   border: 1px solid black;
 }
+.group {
+  display: flex;
+  flex-direction: row; /* or column */
+}
+.image-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* #leftbox {
+padding: 5px;
+float:left;
+width:33%;
+height:auto;
+}
+#middlebox{
+padding: 5px;
+float:left;
+width:33%;
+height:auto;
+}
+#rightbox {
+padding: 5px;
+float:left;
+width:33%;
+height:auto;
+} */
