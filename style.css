@@ -19,12 +19,13 @@ h3 {
 /* Header */
 header {
   display: flex;
-  margin: auto;
-  width: 40% ;
-  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  /*width: 40% ;*/
+  justify-content: center;
   text-align: center;
- /* float: center;*/
-  align-items: baseline;
+  align-items: center;
 }
 
 /* Containers */
